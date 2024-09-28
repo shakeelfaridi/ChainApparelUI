@@ -1,0 +1,3 @@
+const BLOCKCHAIN_API = process.env.REACT_APP_BLOCKCHAIN_API;
+
+export { BLOCKCHAIN_API };
