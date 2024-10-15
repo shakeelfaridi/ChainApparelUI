@@ -523,7 +523,7 @@ export default function SubmitOrder() {
               <Grid item xs={12} md={12} lg={12}>
                 {materialInfo.length && (
                   <Typography variant="h5" color="initial" align={"center"}>
-                    Materials & Vendors
+                    Materials & Supplier
                   </Typography>
                 )}
               </Grid>

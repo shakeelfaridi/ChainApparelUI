@@ -290,14 +290,14 @@ export default function OrderToVendor() {
     }
   };
   return (
-    <Page title="Vendor Orders">
+    <Page title="Supplier Orders">
       {isLoading && <LoadingSpinner/>}
       <Container>
         <HeaderBreadcrumbs
-          heading={"Vendor Orders"}
+          heading={"Supplier Orders"}
           links={[
             { name: "Dashboard", href: "/dashboard" },
-            { name: "Vendor Orders", href: "/dashboard/material-orders" },
+            { name: "Supplier Orders", href: "/dashboard/material-orders" },
           ]}
         />
         <Grid container spacing={2}>
@@ -335,7 +335,7 @@ export default function OrderToVendor() {
                       <TableRow>
                         <TableCell>Sr #</TableCell>
                         <TableCell>Materials</TableCell>
-                        <TableCell>Vendors</TableCell>
+                        <TableCell>Supplier</TableCell>
                         <TableCell>Quantity</TableCell>
                         <TableCell>Expected Delivery</TableCell>
                         <TableCell>- / Ordered Date</TableCell>

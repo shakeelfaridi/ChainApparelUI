@@ -12,7 +12,7 @@ const vendor = [
     items: [
       {
         title: "New Orders",
-        path: "/dashboard/vendor",
+        path: "/dashboard/Supplier",
         icon: "ant-design:dashboard-filled",
       },
      

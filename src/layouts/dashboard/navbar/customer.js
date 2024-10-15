@@ -34,11 +34,11 @@ const customer = [
     ],
   },
   {
-    subheader: "Vendors",
+    subheader: "Supplier",
     items: [
       {
-        title: "Vendors",
-        path: "/dashboard/Vendors",
+        title: "Supplier",
+        path: "/dashboard/Suppliers",
         icon: "mdi:hand-truck",
       },
     ],

@@ -11,8 +11,8 @@ const navConfig = [
   {
     items: [
       {
-        title: "Vendor Orders",
-        path: "/dashboard/Vendor-Orders",
+        title: "Supplier Orders",
+        path: "/dashboard/Supplier-Orders",
         icon: "academicons:open-materials",
       },
       {

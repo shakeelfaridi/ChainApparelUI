@@ -85,24 +85,24 @@ export default function Vendors() {
     navigate(`/dashboard/edit/${paramCase(item.company)}`);
   };
   return (
-    <Page title="Vendors">
+    <Page title="Suppliers">
       <Container>
         <HeaderBreadcrumbs
-          heading={"Vendors"}
+          heading={"Suppliers"}
           links={[
             { name: "Dashboard", href: "/dashbaord" },
             {
-              name: "Vendors",
-              href: "/dashboard/Vendors",
+              name: "Suppliers",
+              href: "/dashboard/Suppliers",
             },
           ]}
           action={
             <Button
               variant="contained"
               component={routerLink}
-              to="/dashboard/create-new-vendor"
+              to="/dashboard/create-new-supplier"
             >
-              New Vendor
+              New Supplier
             </Button>
           }
         />

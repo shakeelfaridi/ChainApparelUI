@@ -267,6 +267,7 @@ export default function OrderDetail() {
                           </Box>
                         </TableCell>
                       </TableRow>
+                      <br />
                       {/* --------------- */}
                       <TableRow>
                         <TableCell variant="head">

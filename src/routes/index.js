@@ -119,7 +119,7 @@ export default function Router() {
           ),
         },
         {
-          path: "create-new-vendor",
+          path: "create-new-supplier",
           element: (
             <RoleBasedGuard accessibleRoles={["customer"]}>
               <CreateWorkers />
@@ -177,7 +177,7 @@ export default function Router() {
           ),
         },
         {
-          path: "Vendor-Orders",
+          path: "Supplier-Orders",
           element: (
             <RoleBasedGuard accessibleRoles={["manufacturer"]}>
               <OrderToVendor />
@@ -193,12 +193,12 @@ export default function Router() {
           ),
         },
         {
-          path: "vendor",
+          path: "Supplier",
           element: <Vendor />,
         },
         // customer side vendor page - customer create new vendor
         {
-          path: "Vendors",
+          path: "Suppliers",
           element: <Vendors />,
         },
         {

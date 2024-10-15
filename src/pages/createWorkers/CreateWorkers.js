@@ -29,8 +29,8 @@ function CreateWorkers() {
           title={
             iscustomer === "/dashboard/create-new-manufacturer"
               ? "Create a new manufacturer"
-              : iscustomer === "/dashboard/create-new-vendor"
-              ? "Create a new Vendor "
+              : iscustomer === "/dashboard/create-new-supplier"
+              ? "Create a new Supplier "
               : iscustomer === "/dashboard/add-user"
               ? "Create a new Worker "
               : edit === "edit"
@@ -43,8 +43,8 @@ function CreateWorkers() {
               heading={
                 iscustomer === "/dashboard/create-new-manufacturer"
                   ? "Create a new manufacturer"
-                  : iscustomer === "/dashboard/create-new-vendor"
-                  ? "Create a new Vendor "
+                  : iscustomer === "/dashboard/create-new-supplier"
+                  ? "Create a new Supplier "
                   : iscustomer === "/dashboard/add-user"
                   ? "Create a new Worker "
                   : edit === "edit"
