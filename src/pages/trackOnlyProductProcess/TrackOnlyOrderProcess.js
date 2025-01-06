@@ -34,6 +34,7 @@ import axios from "axios";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import React, { useState } from "react";
 import HeaderBreadcrumbs from "src/components/HeaderBreadcrumbs";
+import { BLOCKCHAIN_API } from "src/config-global";
 import { db } from "src/firebase/Config";
 import { fDate } from "src/utils/formatTime";
 import useLoggedUser from "src/utils/loggedUser";
@@ -67,7 +68,7 @@ export default function TrackOnlyOrderProcess() {
     try {
       // First API call
       const options1 = {
-        url: `https://api.chainapparel.net/api/query-order/${id}`,
+        url: ` http://localhost:9910/api/query-order/${id}`,
         method: "GET",
         headers: {
           Accept: "application/json",
@@ -80,7 +81,7 @@ export default function TrackOnlyOrderProcess() {
 
       // Second API call
       const options2 = {
-        url: `https://api.chainapparel.net/icp/query-order/${id}`,
+        url: `${BLOCKCHAIN_API}/query-order/${id}`,
         method: "GET",
         headers: {
           Accept: "application/json",

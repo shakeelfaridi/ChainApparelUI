@@ -85,7 +85,7 @@ export default function OrderDetail() {
 
     const startProductionDate = fCurrentDate();
     const options = {
-      url: "https://api.chainapparel.net/api/create-order",
+      url: " http://localhost:9910/api/create-order",
       method: "POST",
       headers: {
         Accept: "application/json",

@@ -185,7 +185,7 @@ export default function PoProcesses() {
       try {
         setIserror(false);
         const options = {
-          url: `https://api.chainapparel.net/api/order-process/${orderId}`,
+          url: ` http://localhost:9910/api/order-process/${orderId}`,
           method: "POST",
           headers: {
             Accept: "application/json",

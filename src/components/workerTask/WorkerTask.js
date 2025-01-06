@@ -115,7 +115,7 @@ export default function WorkerTask({ order, workerData, getTask }) {
     setDisabled(true);
 
     const options = {
-      url: `https://api.chainapparel.net/api/order-${role.toLowerCase()}/${
+      url: ` http://localhost:9910/api/order-${role.toLowerCase()}/${
         order.orderId
       }`,
       method: "POST",
